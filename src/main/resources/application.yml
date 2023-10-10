@@ -1,0 +1,15 @@
+server:
+  port: 9990
+# -- Default spring configuration
+
+spring:
+  application:
+    name: api-getway-server
+
+# -- Eureka client
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+#    serviceUrl:
+#      defaultZone: ${EUREKA_URL:http://127.0.0.1:8787/eureka/}
